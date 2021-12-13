@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content {
+    padding: 32px;
+}
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.skip-link:focus {
+    top: 0;
+    transition: all 0.5s;
+}

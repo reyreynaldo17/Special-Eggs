@@ -1,0 +1,22 @@
+footer {
+    padding: 2em;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+footer i .fab {
+    height: 30px;
+}
+
+footer span {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer .footer_logo {
+    font-weight: 500;
+    font-size: 1.2em;
+    font-family: 'Pacifico', cursive;
+}

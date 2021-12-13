@@ -1,0 +1,21 @@
+.card {
+    width: 100%;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.card__label {
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+.card__label::after {
+    content: '';
+    margin-top: 16px;
+    display: block;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.card-rating {
+    color: yellow;
+}

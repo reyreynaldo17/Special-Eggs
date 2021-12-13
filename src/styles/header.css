@@ -1,0 +1,83 @@
+.header {
+    min-height: 60px;
+    transition: min-height 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.header_logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.header_logo a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.menu_toggle {
+    font-size: 32px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-width: 0;
+}
+
+.header_nav {
+    text-align: center;
+}
+
+.nav_list {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.nav_item {
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    line-height: 24px;
+}
+
+.nav_item a {
+    font-size: 18px;
+}
+
+.nav_list a {
+    display: inline-block;
+    padding: 1.3em;
+    text-decoration: none;
+    color: #616161;
+}
+
+.nav_list a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+.about_us a {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.about_us a:hover {
+    text-decoration: underline;
+    background-color: rgb(114, 114, 114);
+    transition: all 0.3s;
+}

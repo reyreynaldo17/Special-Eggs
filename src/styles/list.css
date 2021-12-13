@@ -1,0 +1,67 @@
+.lists {
+    margin: 32px auto auto;
+    text-align: left;
+    gap: 50;
+}
+
+.list-item {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.list-item__content {
+    padding: 16px;
+}
+
+.list-item__restaurant {
+    font-size: 1em;
+    color: #999;
+}
+
+.list-item__restaurant-rate {
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.list-item__title {
+    font-weight: 500;
+    margin-top: 15px;
+    font-size: 2rem;
+    min-height: 44px;
+    transition: 0.3s opacity;
+}
+
+.list-item__title:hover {
+    opacity: 0.5;
+}
+
+.list-item__title a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.list-item__description {
+    margin-top: 16px;
+    font-size: 12px;
+    line-height: 1.5em;
+}
+
+.list-item__thumbnail {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+}
+
+.list-thumbnail {
+    position: relative;
+}
+
+.list-city {
+    position: absolute;
+    top: 20px;
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 0.8em;
+}
